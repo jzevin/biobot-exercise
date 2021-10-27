@@ -1,0 +1,23 @@
+Objective
+Using JavaScript and React, your assignment is to create a Search for Kits functionality.
+
+Recommended time
+3 hours
+
+Brief
+Biobot customers receive a kit with tubes inside of it, which the customer uses to collect
+samples, and later sends the kit back to the Biobot lab. Your task is to build out search with an
+autocomplete functionality for our customers to use to track the shipping status of that kit. Each
+kit has a label on it with a unique kit identifier and FedEx tracking number. (See attached JSON
+file for the data)
+Tasks
+
+● Create an endpoint that returns kits.
+● Create a UI component that a user is able to type in the kit id and have information
+returned about it.
+○ Feel free to use Create React App
+○ There are 1,000 kits in our current database, but it keeps growing every day so
+build it for scale
+
+Notes
+● Create a Github repository to turn this in
