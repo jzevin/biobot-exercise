@@ -1,0 +1,28 @@
+.detail {
+  text-align: left;
+  padding: 0 2em;
+  font-size: 1.5em;
+}
+.detail.empty {
+  text-align: center;
+}
+
+.detail-row {
+  display: flex;
+  border-bottom: 1px solid lightblue;
+  padding: 1em 0;
+}
+
+.detail-property {
+  text-transform: capitalize;
+}
+
+.detail-property,
+.detail-value {
+  display: inline-block;
+}
+
+.detail-value {
+  flex: 1 1 auto;
+  text-align: right;
+}
